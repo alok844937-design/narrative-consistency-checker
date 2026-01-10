@@ -1,6 +1,3 @@
-# narrative-consistency-checker
-An evidence-aware NLP system for verifying logical consistency between character backstories and long-form fictional narratives using claim-level retrieval and contradiction mining.
-
 # Narrative Consistency Checker 
 This repository presents a long-context NLP system developed for the **Kharagpur Data Science Hackathon 2026**.
 This task is to verify whether a hypothetical **character backstory** is logically consistent with a **full-length narraative (novel)** by detecting factual and causal contradictions.
