@@ -43,5 +43,5 @@ pip install -r requirements.txt
 ```
 <br>
 ## Author
-Alok
-IIT Patna
+Alok<br>
+IIT Patna<br>
