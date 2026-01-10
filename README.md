@@ -42,6 +42,6 @@ Backstory → Claim Extraction → Claim-wise Retrieval → NLI-based Verificati
 pip install -r requirements.txt
 ```
 <br>
-## Author
+## 💻Author<br>
 Alok<br>
 IIT Patna<br>
