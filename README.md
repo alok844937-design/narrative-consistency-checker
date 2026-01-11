@@ -32,6 +32,11 @@ This system analyzes narratives to extract claims and verifies their consistency
 └── README.md                     # This file
 ```
 
+## Project Repository 
+
+The full project, icluding tthe presentation slides, is available at:
+[GitHub Repository](https://github.com/alok844937-design/narrative-consistency-checker)
+
 ## 🚀 Installation
 
 ### 1. Clone the repository or navigate to project directory
