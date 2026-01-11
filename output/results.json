@@ -1,0 +1,102 @@
+[
+  {
+    "status": "success",
+    "summary": {
+      "total_claims": 4,
+      "supported": 4,
+      "contradicted": 0,
+      "partially_supported": 0,
+      "insufficient_evidence": 0,
+      "consistency_score": 1.0,
+      "consistency_percentage": 100.0
+    },
+    "claim_verifications": [
+      {
+        "claim": "The company reported a 25% increase in revenue for Q4 2025.",
+        "claim_id": 0,
+        "verdict": "SUPPORTED",
+        "max_entailment_score": 0.9958,
+        "max_contradiction_score": 0.0049,
+        "avg_entailment_score": 0.3327,
+        "retrieved_contexts": null,
+        "context_results": null
+      },
+      {
+        "claim": "The CEO announced plans to expand into Asian markets.",
+        "claim_id": 1,
+        "verdict": "SUPPORTED",
+        "max_entailment_score": 0.9922,
+        "max_contradiction_score": 0.0246,
+        "avg_entailment_score": 0.3325,
+        "retrieved_contexts": null,
+        "context_results": null
+      },
+      {
+        "claim": "The board approved a $50 million investment in R&D.",
+        "claim_id": 2,
+        "verdict": "SUPPORTED",
+        "max_entailment_score": 0.9772,
+        "max_contradiction_score": 0.0015,
+        "avg_entailment_score": 0.6515,
+        "retrieved_contexts": null,
+        "context_results": null
+      },
+      {
+        "claim": "Employee headcount grew by 15% this year.",
+        "claim_id": 3,
+        "verdict": "SUPPORTED",
+        "max_entailment_score": 0.8497,
+        "max_contradiction_score": 0.0422,
+        "avg_entailment_score": 0.5667,
+        "retrieved_contexts": null,
+        "context_results": null
+      }
+    ],
+    "entry_id": 0
+  },
+  {
+    "status": "success",
+    "summary": {
+      "total_claims": 3,
+      "supported": 0,
+      "contradicted": 2,
+      "partially_supported": 1,
+      "insufficient_evidence": 0,
+      "consistency_score": 0.1667,
+      "consistency_percentage": 16.67
+    },
+    "claim_verifications": [
+      {
+        "claim": "Climate change has caused global temperatures to rise by 2 degrees Celsius.",
+        "claim_id": 0,
+        "verdict": "PARTIALLY_SUPPORTED",
+        "max_entailment_score": 0.5937,
+        "max_contradiction_score": 0.2977,
+        "avg_entailment_score": 0.199,
+        "retrieved_contexts": null,
+        "context_results": null
+      },
+      {
+        "claim": "Sea levels have increased by 10 meters in the last decade.",
+        "claim_id": 1,
+        "verdict": "CONTRADICTED",
+        "max_entailment_score": 0.0005,
+        "max_contradiction_score": 0.9981,
+        "avg_entailment_score": 0.0003,
+        "retrieved_contexts": null,
+        "context_results": null
+      },
+      {
+        "claim": "Scientists predict catastrophic flooding by 2030.",
+        "claim_id": 2,
+        "verdict": "CONTRADICTED",
+        "max_entailment_score": 0.0034,
+        "max_contradiction_score": 0.6063,
+        "avg_entailment_score": 0.0024,
+        "retrieved_contexts": null,
+        "context_results": null
+      }
+    ],
+    "entry_id": 1
+  }
+]

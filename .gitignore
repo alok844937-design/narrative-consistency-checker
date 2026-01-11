@@ -1,0 +1,10 @@
+# Python cache 
+__pycache__/
+*.pyc
+
+# Output/results
+output/
+
+# IDE / OS specific 
+.DS_Store
+.vscode/
