@@ -16,21 +16,38 @@ This system analyzes narratives to extract claims and verifies their consistency
 ## 🏗️ Project Structure
 
 ```
-.
+narrative-consistency-checker/
+│
 ├── data/
-│   └── sample_input.csv          # Input data file
+│   └── sample_input.csv                          # Input data file
+│
 ├── src/
-│   ├── chunker.py                # Text chunking module
-│   ├── claim_extractor.py        # Claim extraction module
-│   ├── retriever.py              # Semantic retrieval module
-│   ├── nli_checker.py            # NLI verification module
-│   └── pipeline.py               # Main pipeline orchestration
-        __init__.py
-├── output/                        # Output directory (auto-created)
-├── requirements.txt              # Python dependencies
-├── run.py                        # Main execution script
-└── README.md                     # This file
+│   ├── __init__.py
+│   ├── chunker.py                                # Text Chunking module
+│   ├── claim_extractor.py                        # Claim extraction module
+│   ├── retriever.py                              # Semantic retrieval module 
+│   ├── nli_checker.py                            # NLI verification module
+│   ├── pipeline.py                               # Main pipeline orchestration 
+│   └── optimized_pipeline.py 
+│
+├── output/                                       # Output directory (auto created)
+├── cache/                     
+│
+├── requirements.txt                              # Python dependencies
+├── run.py                                        # Main execution script 
+├── run_optimized.py
+├── setup.sh
+├── setup.bat
+├── README.md                                     # This file
+├── OPTIMIZATION_GUIDE.md
+├── PERFORMANCE_COMPARISON.md
+└── QUICK_START.md
 ```
+
+## Project Repository 
+
+The full project, icluding tthe presentation slides, is available at:
+[GitHub Repository](https://github.com/alok844937-design/narrative-consistency-checker)
 
 ## 🚀 Installation
 
@@ -255,6 +272,7 @@ Make sure to:
 3. Adjust column names in `run.py` if needed
 4. Document any custom modifications
 5. Include output examples in your submission
+
 
 ## 📧 Support
 
